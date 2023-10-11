@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Activity.LoginActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/tnlogo"
+        android:layout_height="300dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Email"
+        android:textSize="20sp"
+
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:hint="Email address"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="PassWord"
+        android:textSize="23sp"
+        android:layout_marginTop="13dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="PassWord"
+        android:inputType="textPassword" />
+
+    <Button
+
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#394BAE"
+        android:text="  Sign in  "
+        android:textSize="18sp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txtCreateAcc"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:text="Create a new account"
+        android:gravity="center"
+        android:textColor="#138BEA"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:text="If you forgot your password"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtForgot"
+            android:textColor="#138BEA"
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:text=" click here"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:text=" to retrieve it"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

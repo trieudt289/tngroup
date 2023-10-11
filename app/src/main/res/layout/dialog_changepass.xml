@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    android:layout_width="400dp"
+    android:background="#7878D8"
+    android:layout_height="270dp">
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:text="login information"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Email"
+        android:textSize="17sp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtEmail_dia"
+        android:layout_width="match_parent"
+        android:hint="Email address"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="PassWord"
+        android:textSize="17sp"
+        android:layout_marginTop="13dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtPass_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="PassWord"
+        android:inputType="textPassword" />
+    <Button
+
+        android:id="@+id/btnchange_dia"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#394BAE"
+        android:text="  Sign in  "
+        android:textSize="15sp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

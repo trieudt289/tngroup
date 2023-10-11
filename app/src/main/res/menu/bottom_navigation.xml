@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bot_Home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item android:id="@+id/bot_Notification"
+        android:title="Notification"
+        android:icon="@drawable/notifi"/>
+    <item android:id="@+id/bot_addUser"
+        android:title="Add Staff"
+        android:icon="@drawable/adduser"/>
+    <item android:id="@+id/bot_liststaff"
+        android:title="List Staff"
+        android:icon="@drawable/list"/>
+</menu>
